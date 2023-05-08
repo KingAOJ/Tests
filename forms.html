@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Demo</title>
+  </head>
+  <body>
+    <h1>Forms DEmo</h1>
+
+    <form action="/nani">
+      <div>
+        <label for="username">Enter a Username</label>
+        <input id="username" type="text" placeholder="Username" />
+      </div>
+      <div>
+        <label for="password">Enter Password</label>
+        <input id="password" type="password" placeholder="Enter Password" />
+      </div>
+      <div>
+        <label for="color">Choose a color</label>
+        <input id="color" type="color" />
+      </div>
+      <div>
+        <label for="number">Enter a number</label>
+        <input id="number" type="number" placeholder="number" />
+      </div>
+      <button>Submit</button>
+    </form>
+    <h2>More Inputs</h2>
+    <form action="/Goats">
+      <input type="checkbox" name="agree" id="agree" />
+      <label for="agree">I Agree I am a Goat</label>
+      <p>
+        <label for="billy">Billy</label>
+        <input type="radio" name="size" id="Billy" />
+        <label for="He">He</label>
+        <input type="radio" name="size" id="He" />
+        <label for="She">She</label>
+        <input type="radio" name="size" id="She" />
+      </p>
+      <label for="Meat-select">Choose a meat</label>
+      <select name="Meat" id="Meat-select">
+        <option value="">Please choose an option</option>
+        <option value="Rare">Rare</option>
+        <option value="Medium rare">Medium Rare</option>
+        <option value="Well Done">Well Done</option></select
+      ><br />
+
+      <p>
+        <label for="Message">Leave us a message</label>
+        <textarea
+          name="Message"
+          id="Message"
+          cols="20"
+          rows="5"
+          placeholder="Message"
+        ></textarea>
+      </p>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
